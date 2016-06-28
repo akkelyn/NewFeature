@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E64478F1D20E2CC00F567E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64478E1D20E2CC00F567E0 /* main.m */; };
+		1E6447921D20E2CC00F567E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6447911D20E2CC00F567E0 /* AppDelegate.m */; };
+		1E6447951D20E2CC00F567E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6447941D20E2CC00F567E0 /* ViewController.m */; };
+		1E6447981D20E2CC00F567E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6447961D20E2CC00F567E0 /* Main.storyboard */; };
+		1E64479A1D20E2CC00F567E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6447991D20E2CC00F567E0 /* Assets.xcassets */; };
+		1E64479D1D20E2CC00F567E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E64479B1D20E2CC00F567E0 /* LaunchScreen.storyboard */; };
+		1E6447A81D20E2CC00F567E0 /* fleaMarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6447A71D20E2CC00F567E0 /* fleaMarkTests.m */; };
+		1E6447B31D20E2CC00F567E0 /* fleaMarkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6447B21D20E2CC00F567E0 /* fleaMarkUITests.m */; };
+		1E6447C81D20FEA100F567E0 /* NewFeatureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6447C71D20FEA100F567E0 /* NewFeatureLayout.m */; };
+		1E6447CC1D21006C00F567E0 /* NewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6447CB1D21006C00F567E0 /* NewFeatureCell.m */; };
+		1E6447CF1D21166E00F567E0 /* NewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6447CE1D21166E00F567E0 /* NewFeatureController.m */; };
+		1E6447DE1D21260D00F567E0 /* guide0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1E6447DA1D2125EC00F567E0 /* guide0.mp4 */; };
+		1E6447DF1D21260D00F567E0 /* guide1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1E6447DB1D2125EC00F567E0 /* guide1.mp4 */; };
+		1E6447E01D21260D00F567E0 /* guide2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1E6447DC1D2125EC00F567E0 /* guide2.mp4 */; };
+		1E6447E11D21260D00F567E0 /* guide3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1E6447DD1D2125EC00F567E0 /* guide3.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E6447A41D20E2CC00F567E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E6447821D20E2CB00F567E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E6447891D20E2CB00F567E0;
+			remoteInfo = fleaMark;
+		};
+		1E6447AF1D20E2CC00F567E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E6447821D20E2CB00F567E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E6447891D20E2CB00F567E0;
+			remoteInfo = fleaMark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E64478A1D20E2CB00F567E0 /* fleaMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fleaMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E64478E1D20E2CC00F567E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E6447901D20E2CC00F567E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E6447911D20E2CC00F567E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E6447931D20E2CC00F567E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E6447941D20E2CC00F567E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E6447971D20E2CC00F567E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E6447991D20E2CC00F567E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E64479C1D20E2CC00F567E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E64479E1D20E2CC00F567E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6447A31D20E2CC00F567E0 /* fleaMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fleaMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6447A71D20E2CC00F567E0 /* fleaMarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fleaMarkTests.m; sourceTree = "<group>"; };
+		1E6447A91D20E2CC00F567E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6447AE1D20E2CC00F567E0 /* fleaMarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fleaMarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6447B21D20E2CC00F567E0 /* fleaMarkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fleaMarkUITests.m; sourceTree = "<group>"; };
+		1E6447B41D20E2CC00F567E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6447C61D20FEA100F567E0 /* NewFeatureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureLayout.h; sourceTree = "<group>"; };
+		1E6447C71D20FEA100F567E0 /* NewFeatureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureLayout.m; sourceTree = "<group>"; };
+		1E6447CA1D21006C00F567E0 /* NewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureCell.h; sourceTree = "<group>"; };
+		1E6447CB1D21006C00F567E0 /* NewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureCell.m; sourceTree = "<group>"; };
+		1E6447CD1D21166E00F567E0 /* NewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureController.h; sourceTree = "<group>"; };
+		1E6447CE1D21166E00F567E0 /* NewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureController.m; sourceTree = "<group>"; };
+		1E6447DA1D2125EC00F567E0 /* guide0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = guide0.mp4; path = "../资源包/Resource/guide0.mp4"; sourceTree = "<group>"; };
+		1E6447DB1D2125EC00F567E0 /* guide1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = guide1.mp4; path = "../资源包/Resource/guide1.mp4"; sourceTree = "<group>"; };
+		1E6447DC1D2125EC00F567E0 /* guide2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = guide2.mp4; path = "../资源包/Resource/guide2.mp4"; sourceTree = "<group>"; };
+		1E6447DD1D2125EC00F567E0 /* guide3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = guide3.mp4; path = "../资源包/Resource/guide3.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E6447871D20E2CB00F567E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6447A01D20E2CC00F567E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6447AB1D20E2CC00F567E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6447811D20E2CB00F567E0 = {
+			isa = PBXGroup;
+			children = (
+				1E6447DA1D2125EC00F567E0 /* guide0.mp4 */,
+				1E6447DB1D2125EC00F567E0 /* guide1.mp4 */,
+				1E6447DC1D2125EC00F567E0 /* guide2.mp4 */,
+				1E6447DD1D2125EC00F567E0 /* guide3.mp4 */,
+				1E64478C1D20E2CC00F567E0 /* fleaMark */,
+				1E6447A61D20E2CC00F567E0 /* fleaMarkTests */,
+				1E6447B11D20E2CC00F567E0 /* fleaMarkUITests */,
+				1E64478B1D20E2CB00F567E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E64478B1D20E2CB00F567E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E64478A1D20E2CB00F567E0 /* fleaMark.app */,
+				1E6447A31D20E2CC00F567E0 /* fleaMarkTests.xctest */,
+				1E6447AE1D20E2CC00F567E0 /* fleaMarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E64478C1D20E2CC00F567E0 /* fleaMark */ = {
+			isa = PBXGroup;
+			children = (
+				1E6447901D20E2CC00F567E0 /* AppDelegate.h */,
+				1E6447911D20E2CC00F567E0 /* AppDelegate.m */,
+				1E6447931D20E2CC00F567E0 /* ViewController.h */,
+				1E6447941D20E2CC00F567E0 /* ViewController.m */,
+				1E6447961D20E2CC00F567E0 /* Main.storyboard */,
+				1E6447C51D20FE5A00F567E0 /* NewFeature */,
+				1E6447991D20E2CC00F567E0 /* Assets.xcassets */,
+				1E64479B1D20E2CC00F567E0 /* LaunchScreen.storyboard */,
+				1E64479E1D20E2CC00F567E0 /* Info.plist */,
+				1E64478D1D20E2CC00F567E0 /* Supporting Files */,
+			);
+			path = fleaMark;
+			sourceTree = "<group>";
+		};
+		1E64478D1D20E2CC00F567E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E64478E1D20E2CC00F567E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E6447A61D20E2CC00F567E0 /* fleaMarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E6447A71D20E2CC00F567E0 /* fleaMarkTests.m */,
+				1E6447A91D20E2CC00F567E0 /* Info.plist */,
+			);
+			path = fleaMarkTests;
+			sourceTree = "<group>";
+		};
+		1E6447B11D20E2CC00F567E0 /* fleaMarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E6447B21D20E2CC00F567E0 /* fleaMarkUITests.m */,
+				1E6447B41D20E2CC00F567E0 /* Info.plist */,
+			);
+			path = fleaMarkUITests;
+			sourceTree = "<group>";
+		};
+		1E6447C51D20FE5A00F567E0 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				1E6447C91D20FEB100F567E0 /* flowLayout */,
+				1E6447CA1D21006C00F567E0 /* NewFeatureCell.h */,
+				1E6447CB1D21006C00F567E0 /* NewFeatureCell.m */,
+				1E6447CD1D21166E00F567E0 /* NewFeatureController.h */,
+				1E6447CE1D21166E00F567E0 /* NewFeatureController.m */,
+			);
+			name = NewFeature;
+			sourceTree = "<group>";
+		};
+		1E6447C91D20FEB100F567E0 /* flowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1E6447C61D20FEA100F567E0 /* NewFeatureLayout.h */,
+				1E6447C71D20FEA100F567E0 /* NewFeatureLayout.m */,
+			);
+			name = flowLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E6447891D20E2CB00F567E0 /* fleaMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6447B71D20E2CC00F567E0 /* Build configuration list for PBXNativeTarget "fleaMark" */;
+			buildPhases = (
+				1E6447861D20E2CB00F567E0 /* Sources */,
+				1E6447871D20E2CB00F567E0 /* Frameworks */,
+				1E6447881D20E2CB00F567E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fleaMark;
+			productName = fleaMark;
+			productReference = 1E64478A1D20E2CB00F567E0 /* fleaMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E6447A21D20E2CC00F567E0 /* fleaMarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6447BA1D20E2CC00F567E0 /* Build configuration list for PBXNativeTarget "fleaMarkTests" */;
+			buildPhases = (
+				1E64479F1D20E2CC00F567E0 /* Sources */,
+				1E6447A01D20E2CC00F567E0 /* Frameworks */,
+				1E6447A11D20E2CC00F567E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E6447A51D20E2CC00F567E0 /* PBXTargetDependency */,
+			);
+			name = fleaMarkTests;
+			productName = fleaMarkTests;
+			productReference = 1E6447A31D20E2CC00F567E0 /* fleaMarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E6447AD1D20E2CC00F567E0 /* fleaMarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6447BD1D20E2CC00F567E0 /* Build configuration list for PBXNativeTarget "fleaMarkUITests" */;
+			buildPhases = (
+				1E6447AA1D20E2CC00F567E0 /* Sources */,
+				1E6447AB1D20E2CC00F567E0 /* Frameworks */,
+				1E6447AC1D20E2CC00F567E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E6447B01D20E2CC00F567E0 /* PBXTargetDependency */,
+			);
+			name = fleaMarkUITests;
+			productName = fleaMarkUITests;
+			productReference = 1E6447AE1D20E2CC00F567E0 /* fleaMarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E6447821D20E2CB00F567E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = runone02;
+				TargetAttributes = {
+					1E6447891D20E2CB00F567E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1E6447A21D20E2CC00F567E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1E6447891D20E2CB00F567E0;
+					};
+					1E6447AD1D20E2CC00F567E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1E6447891D20E2CB00F567E0;
+					};
+				};
+			};
+			buildConfigurationList = 1E6447851D20E2CB00F567E0 /* Build configuration list for PBXProject "fleaMark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E6447811D20E2CB00F567E0;
+			productRefGroup = 1E64478B1D20E2CB00F567E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E6447891D20E2CB00F567E0 /* fleaMark */,
+				1E6447A21D20E2CC00F567E0 /* fleaMarkTests */,
+				1E6447AD1D20E2CC00F567E0 /* fleaMarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E6447881D20E2CB00F567E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6447DE1D21260D00F567E0 /* guide0.mp4 in Resources */,
+				1E6447DF1D21260D00F567E0 /* guide1.mp4 in Resources */,
+				1E6447E01D21260D00F567E0 /* guide2.mp4 in Resources */,
+				1E6447E11D21260D00F567E0 /* guide3.mp4 in Resources */,
+				1E64479D1D20E2CC00F567E0 /* LaunchScreen.storyboard in Resources */,
+				1E64479A1D20E2CC00F567E0 /* Assets.xcassets in Resources */,
+				1E6447981D20E2CC00F567E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6447A11D20E2CC00F567E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6447AC1D20E2CC00F567E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E6447861D20E2CB00F567E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6447951D20E2CC00F567E0 /* ViewController.m in Sources */,
+				1E6447921D20E2CC00F567E0 /* AppDelegate.m in Sources */,
+				1E6447C81D20FEA100F567E0 /* NewFeatureLayout.m in Sources */,
+				1E6447CF1D21166E00F567E0 /* NewFeatureController.m in Sources */,
+				1E64478F1D20E2CC00F567E0 /* main.m in Sources */,
+				1E6447CC1D21006C00F567E0 /* NewFeatureCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E64479F1D20E2CC00F567E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6447A81D20E2CC00F567E0 /* fleaMarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6447AA1D20E2CC00F567E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6447B31D20E2CC00F567E0 /* fleaMarkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E6447A51D20E2CC00F567E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E6447891D20E2CB00F567E0 /* fleaMark */;
+			targetProxy = 1E6447A41D20E2CC00F567E0 /* PBXContainerItemProxy */;
+		};
+		1E6447B01D20E2CC00F567E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E6447891D20E2CB00F567E0 /* fleaMark */;
+			targetProxy = 1E6447AF1D20E2CC00F567E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E6447961D20E2CC00F567E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E6447971D20E2CC00F567E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E64479B1D20E2CC00F567E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E64479C1D20E2CC00F567E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E6447B51D20E2CC00F567E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E6447B61D20E2CC00F567E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E6447B81D20E2CC00F567E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fleaMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.runone.fleaMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E6447B91D20E2CC00F567E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fleaMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.runone.fleaMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E6447BB1D20E2CC00F567E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fleaMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.runone.fleaMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fleaMark.app/fleaMark";
+			};
+			name = Debug;
+		};
+		1E6447BC1D20E2CC00F567E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fleaMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.runone.fleaMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fleaMark.app/fleaMark";
+			};
+			name = Release;
+		};
+		1E6447BE1D20E2CC00F567E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fleaMarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.runone.fleaMarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fleaMark;
+			};
+			name = Debug;
+		};
+		1E6447BF1D20E2CC00F567E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fleaMarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.runone.fleaMarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fleaMark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E6447851D20E2CB00F567E0 /* Build configuration list for PBXProject "fleaMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6447B51D20E2CC00F567E0 /* Debug */,
+				1E6447B61D20E2CC00F567E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6447B71D20E2CC00F567E0 /* Build configuration list for PBXNativeTarget "fleaMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6447B81D20E2CC00F567E0 /* Debug */,
+				1E6447B91D20E2CC00F567E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E6447BA1D20E2CC00F567E0 /* Build configuration list for PBXNativeTarget "fleaMarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6447BB1D20E2CC00F567E0 /* Debug */,
+				1E6447BC1D20E2CC00F567E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E6447BD1D20E2CC00F567E0 /* Build configuration list for PBXNativeTarget "fleaMarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6447BE1D20E2CC00F567E0 /* Debug */,
+				1E6447BF1D20E2CC00F567E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E6447821D20E2CB00F567E0 /* Project object */;
+}
